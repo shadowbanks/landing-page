@@ -1,6 +1,5 @@
 
 .header, .first-body, .second-body, .third-body{
-    height: 320px;
     margin: -8px;
 }
 body{
@@ -43,7 +42,7 @@ ul{
 }
 
 .h-bottom, .h-top{
-    margin: 0 100px;
+    margin: 0 80px;
 
 }
 
@@ -59,7 +58,8 @@ ul{
 }
 
 .header-img{
-    width: 400px;
+    height: 200px;
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,6 +100,7 @@ button, .third{
 .infos{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info{
@@ -118,7 +119,7 @@ button, .third{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px 280px;
+    padding: 30px 250px;
 }
 
 .quote{
@@ -142,14 +143,12 @@ button, .third{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    padding: 100px 0;
 }
 
 .third{
     border-radius: 8px;
-    margin: 100px;
     width: 1200px;
-    height: 100px;
     display: flex;
     justify-content: space-between;
     padding: 20px 80px;
@@ -162,7 +161,7 @@ button, .third{
     font-size: 22px;
 }
 .sign-up{
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 .footer{
