@@ -1,10 +1,12 @@
 
 .header, .first-body, .second-body, .third-body{
-    margin: -8px;
+    /* margin: -8px; */
 }
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .header, .footer{
@@ -51,6 +53,7 @@ ul{
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .h-content{
@@ -64,6 +67,9 @@ ul{
     align-items: center;
     justify-content: center;
     background-color:#2d333b;
+    background-image: url("./images/paimon.jpeg");
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
 }
 
 button, .third{
@@ -91,10 +97,31 @@ button, .third{
 .body-img{
     height: 120px;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     border: 2px solid #3882F6;
     border-radius: 12px;
+}
+
+.one, .two, .three, .four{
+    background-size: 120px 130px;
+    background-repeat: no-repeat;
+}
+
+.one{
+    background-image: url("./images/Character_Xiao_Full_Wish.webp");
+}
+
+.two{
+    background-image: url("./images/Character_Bennett_Full_Wish.webp");
+}
+
+.three{
+    background-image: url("./images/Character_Zhongli_Full_Wish.webp");
+}
+
+.four{
+    background-image: url("./images/Character_Albedo_Full_Wish.webp");
 }
 
 .infos{
